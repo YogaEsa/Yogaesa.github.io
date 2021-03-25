@@ -1,0 +1,75 @@
+.bg-header {
+  background-image: url(../assets/img/bg-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-sub {
+  background-color: #1c1c1c !important;
+}
+
+.bg-yellow {
+  background-color: #f5a827 !important;
+}
+
+.text-black {
+  color: #1c1c1c !important;
+}
+
+.text-yellow {
+  color: #f5a827 !important;
+}
+
+.btn-primary-light {
+  color: #f5a827;
+  border-color: #f5a827;
+  width: 300px;
+}
+
+.btn-primary-light:hover {
+  color: #fff;
+  background-color: #f5a827;
+  border-color: #f5a827;
+}
+
+.list-skills {
+  display: inline-block;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.list-skills img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.btn-git {
+  margin: 10px;
+  color: #f5a827;
+  border-color: #f5a827;
+}
+
+.btn-git:hover {
+  color: #fff;
+  background-color: #f5a827;
+  border-color: #f5a827;
+}
+
+.btn-demo {
+  margin: 10px;
+  color: #fff;
+  background-color: #f5a827;
+  border-color: #f5a827;
+}
+
+.btn-demo:hover {
+  color: #f5a827;
+  border-color: #f5a827;
+  background-color: #fff;
+}
+
+.btn-secondary {
+  opacity: 0.5;
+}
