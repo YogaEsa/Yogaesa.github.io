@@ -13,7 +13,7 @@ $('.tab').click(function (e) {
   if ($(this).index() == 2) {
     $('.icon-nav3').removeClass('contact-icon').addClass('contact-icon-active');
     $('.icon-nav1').removeClass('couple-icon-active').addClass('couple-icon');
-    $('.icon-nav2').removeClass('event-icon-active').addClass('event-icon');
+    $('.icon-nav3').removeClass('contact-icon-active').addClass('contact-icon');
   }
   if ($(this).index() == 0 || $(this).index() == 1 || $(this).index() == 2) {
     tabItemClick($(this).index());
