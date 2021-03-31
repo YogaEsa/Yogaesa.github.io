@@ -48,27 +48,7 @@ function tabItemClick(i) {
   }
 }
 
-// need to test performance of this
-$(document).click(function (event) {
-  //make sure .tab and .overlay are not ancestors of the target of the clicked element by using .closest() and .is().
-
-  //If not ancestors, then the clicked element is outside of .tab
-  // hide overlay
-  if (!$(event.target).closest('.tab').length && !$(event.target).is('.tab') && !$(event.target).closest('.overlay').length && !$(event.target).is('.overlay')) {
-    if ($('.overlay').hasClass('overlay-active')) {
-      $('.overlay').removeClass('overlay-active');
-      $('.tab').removeClass('active');
-    }
-  }
+$('body').scrollspy({
+  target: '.tab',
+  offset: 80,
 });
-
-//$('.tab').click(function(e) {
-
-//   if ($(this).hasClass('active')) {
-//     $(this).removeClass('active');
-//     $('.overlay').removeClass('overlay-active');
-//   } else {
-//     $(this).addClass('active').siblings().removeClass('active');
-//   //figure out how to load in new content based on specific tab
-//     $('.overlay').addClass('overlay-active');
-//   }
